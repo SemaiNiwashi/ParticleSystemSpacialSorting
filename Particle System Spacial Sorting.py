@@ -7,7 +7,7 @@ pygame.init()
 maxx = 1580
 maxy = 810
 screen = pygame.display.set_mode((maxx, maxy))
-pygame.display.set_caption('Pygame Base Template Minimum') #Change window title
+pygame.display.set_caption('Particle System Spacial Sorting') #Change window title
 oldScreen = pygame.Surface((maxx,maxy))
 oldScreen.fill((255,255,255))
 simTime = 0
