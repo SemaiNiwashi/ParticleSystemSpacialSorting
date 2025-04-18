@@ -12,7 +12,7 @@ oldScreen = pygame.Surface((maxx,maxy))
 oldScreen.fill((255,255,255))
 simTime = 0
 
-#global variables
+#Global variables
 font = pygame.font.SysFont(None, 24)
 gravity = pygame.Vector2(0,1.98)
 trails = False
